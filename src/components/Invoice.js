@@ -1,28 +1,7 @@
 const projects = [
   {
     id: 1,
-    name: 'New Advertising Campaign',
-    hours: '12.0',
-    rate: '$75.00',
-    price: '$900.00',
-  },
-  {
-    id: 2,
-    name: 'Logo Redesign',
-    hours: '12.0',
-    rate: '$75.00',
-    price: '$900.00',
-  },
-  {
-    id: 3,
-    name: 'iOS and Android Apps',
-    hours: '12.0',
-    rate: '$75.00',
-    price: '$900.00',
-  },
-  {
-    id: 1,
-    name: 'Company Website',
+    name: 'Paddle Unit - 12 paddles - 12 Inches',
     hours: '12.0',
     rate: '$75.00',
     price: '$900.00',
@@ -52,7 +31,7 @@ export default function Invoice() {
         </div>
       </div>
       <div className="-mx-4 mt-8 flex flex-col sm:-mx-6 md:mx-0">
-        <table className="min-w-full divide-y divide-gray-300">
+        <table id="text" className="min-w-full divide-y divide-gray-300">
           <thead>
             <tr>
               <th
@@ -120,7 +99,7 @@ export default function Invoice() {
                 Subtotal
               </th>
               <td className="pl-3 pr-4 pt-6 text-right text-sm text-gray-500 sm:pr-6 md:pr-0">
-                $3,900.00
+                $900.00
               </td>
             </tr>
             <tr>
@@ -138,7 +117,7 @@ export default function Invoice() {
                 Tax
               </th>
               <td className="pl-3 pr-4 pt-4 text-right text-sm text-gray-500 sm:pr-6 md:pr-0">
-                $585.00
+                $146.25
               </td>
             </tr>
             <tr>
@@ -156,7 +135,7 @@ export default function Invoice() {
                 Total
               </th>
               <td className="pl-3 pr-4 pt-4 text-right text-sm font-semibold text-gray-900 sm:pr-6 md:pr-0">
-                $4,485.00
+                $1,046.45
               </td>
             </tr>
           </tfoot>
